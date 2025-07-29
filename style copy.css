@@ -1,0 +1,373 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: OrangeGummy;
+  src: url(fonts/Orange\ Gummy.otf);
+}
+
+
+.video-wrap {
+    position: relative;
+  }
+body {
+    background: linear-gradient(rgb(255, 190, 190), rgb(170, 66, 66));
+    /* background-color: rgb(211, 124, 124); */
+    
+
+    color: white;            /* 文字色:白 */
+    text-align: center;
+     margin: 0;
+  }
+
+.wrap{
+  max-width: 900px 40px;
+
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.zp {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff8989;
+  /* text-decoration:none; */
+  
+  text-shadow: #ffffff 1px 0 0, #000000 0 1px 0, #ffffff -1px 0 0, #ffffff 0 -1px 0;
+}
+/* .yori{
+     aspect-ratio: 1 / 1;
+   width: 40%;
+   object-fit: contain;
+} */
+
+.zp:hover{
+  font-family: "sicoboro", sans-serif;
+  text-decoration:none; 
+  font-size:108%;
+  color: #c81a1a;
+  background-color: #000000;
+  /* box-shadow: 0px 10px 16px 20px #000000; */
+  /*边缘模糊*/
+  padding-right: 16%;
+  padding-left: 16%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  transition: all .25s ease-out;
+}
+
+.jk{
+  font-family: sictake-hanga, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffffc8;
+  /* text-decoration:none; */
+  text-shadow: #ffcfcf 1px 0 0, #442a2a 0 1px 0, #633f3f -1px 0 0, #c57575 0 -1px 0;}
+
+.jk:hover{
+  font-size:30px;
+  color: #ff7a7a;
+  transition: all .25s ease-out;
+  text-decoration:underline white;
+}
+
+.jk1{
+  font-family: sictake-hanga, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff5d5dc8;
+  /* text-decoration:none; */
+  text-shadow: #ffcfcf 1px 0 0, #ffffff 0 1px 0, #ffffff -1px 0 0, #c57575 0 -1px 0;}
+
+.jk1:hover{
+  font-size:25px;
+  color: #ff7272;
+  transition: all .25s ease-out;
+  text-decoration:underline white;
+}
+
+    /* background-color:#7f7f95;
+    background-clip:padding-box;
+    border-radius: .25em;
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em 1em 0.2em 1em;
+    box-shadow: 2px 2px 1.6px rgb(96, 82, 82);
+    color: #ffffff; */
+
+.yowa{
+  color: rgb(255, 190, 190);
+  font-size: 15px;
+  margin-bottom: -20px;
+  margin-top: -3px;
+  margin-left: 400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.8;
+  /* text-align: right; */
+}
+
+.nd{
+  letter-spacing: 5px;
+}
+
+.tiao{
+  border-bottom: 10px double;
+  
+}
+
+main{
+  background-color: rgb(12, 12, 12);
+  margin-right: 20%;
+  margin-left: 20%;
+  /* margin-top: -2.5%; */
+  size: 100em;
+  line-height: 1.5;
+
+}
+
+h1{
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+h3{
+    color: rgb(135, 151, 146);
+    font-size: small;
+    line-height: 60px;
+    text-align: left;
+}
+
+
+p.a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 100%;
+}
+
+.entry {
+  max-width: 600px;
+  margin: 1em auto;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  padding: 1em;
+}
+
+.text-box {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /*缩三行 */
+  text-overflow: ellipsis;
+  white-space: normal;
+  transition: all 0.3s ease;
+}
+
+.text-box.expanded {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+/* 按钮 */
+
+.toggle-btn {
+  margin-top: 0.5em;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+   cursor: pointer; /*鼠标放上面变成小手 */
+  color: #888;
+  font-size: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 尾部变化 */
+
+.z1 {
+  display: inline-block; /*让每个字成为独立的行内块元素，这样它们才能单独应用动画和变换（比如旋转、偏移） */
+  opacity: 1;/*初始透明度 */
+  animation: fragment1 1s ease-out forwards; 
+}
+  /*应用一个叫 fragment 的关键帧动画
+  1s：动画时长 1 秒
+  ease-out：慢慢停下来（更自然）
+  forwards：保留动画结束时的状态
+  animation-delay: calc(var(--i) * 0.3s);/
+
+
+/* 动画：往随机方向偏移、旋转、模糊、变淡 */
+@keyframes fragment1 {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 5deg));
+    filter: blur(.4px);
+  }
+}
+
+.z2 {
+  display: inline-block; /*让每个字成为独立的行内块元素，这样它们才能单独应用动画和变换（比如旋转、偏移） */
+  opacity: 1;/*初始透明度 */
+  animation: fragment2 1s ease-out forwards; 
+}
+  /*应用一个叫 fragment 的关键帧动画
+  1s：动画时长 1 秒
+  ease-out：慢慢停下来（更自然）
+  forwards：保留动画结束时的状态
+  animation-delay: calc(var(--i) * 0.3s);/
+
+
+/* 动画：往随机方向偏移、旋转、模糊、变淡 */
+@keyframes fragment2 {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.7;
+    transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 5deg));
+    filter: blur(.8px);
+  }
+}
+
+.z3 {
+  display: inline-block; /*让每个字成为独立的行内块元素，这样它们才能单独应用动画和变换（比如旋转、偏移） */
+  opacity: 1;/*初始透明度 */
+  animation: fragment3 1s ease-out forwards; 
+}
+  /*应用一个叫 fragment 的关键帧动画
+  1s：动画时长 1 秒
+  ease-out：慢慢停下来（更自然）
+  forwards：保留动画结束时的状态
+  animation-delay: calc(var(--i) * 0.3s);/
+
+
+/* 动画：往随机方向偏移、旋转、模糊、变淡 */
+@keyframes fragment3 {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.5;
+    transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 5deg));
+    filter: blur(1px);
+  }
+}
+
+.z4 {
+  display: inline-block; /*让每个字成为独立的行内块元素，这样它们才能单独应用动画和变换（比如旋转、偏移） */
+  opacity: 1;/*初始透明度 */
+  animation: fragment4 1s ease-out forwards; 
+}
+  /*应用一个叫 fragment 的关键帧动画
+  1s：动画时长 1 秒
+  ease-out：慢慢停下来（更自然）
+  forwards：保留动画结束时的状态
+  animation-delay: calc(var(--i) * 0.3s);/
+
+
+/* 动画：往随机方向偏移、旋转、模糊、变淡 */
+@keyframes fragment4 {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 5deg));
+    filter: blur(1.2px);
+  }
+}
+
+.z5 {
+  display: inline-block; /*让每个字成为独立的行内块元素，这样它们才能单独应用动画和变换（比如旋转、偏移） */
+  opacity: 1;/*初始透明度 */
+  animation: fragment5 1s ease-out forwards; 
+}
+  /*应用一个叫 fragment 的关键帧动画
+  1s：动画时长 1 秒
+  ease-out：慢慢停下来（更自然）
+  forwards：保留动画结束时的状态
+  animation-delay: calc(var(--i) * 0.3s);/
+
+
+/* 动画：往随机方向偏移、旋转、模糊、变淡 */
+@keyframes fragment5 {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) rotate(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0.2;
+    transform: translate(var(--x, 0px), var(--y, 0px)) rotate(var(--r, 5deg));
+    filter: blur(1.5px);
+  }
+}
+
+.img1{
+   aspect-ratio: 1 / 1;
+   width: 40%;
+   object-fit: contain;
+}
+
+  footer{
+    background-color: #ff8989;
+    padding: 20px;
+  }
+
+  /* a.bt{
+    background-color:#7f7f95;
+    color: #ffffff;
+    background-clip:padding-box;
+    border-radius: .25em;
+    padding: 0.2em 1em 0.2em 1em;
+    box-shadow: 2px 2px 1.6px rgb(96, 82, 82);
+    text-decoration: none;
+    position: absolute;
+    right: 20px; 
+  
+} */
+
+@media (max-width:560px){
+  .main h1{
+    font-size: 4px;
+  }
+
+.yowa{
+  margin-top: -3px;
+  margin-left: 40px;
+}
+
+  .zp:hover{
+  font-family: "sicoboro", sans-serif;
+  text-decoration:none; 
+  font-size:108%;
+  color: #c81a1a;
+  background-color: #000000;
+  /* box-shadow: 0px 10px 16px 20px #000000; */
+  /*边缘模糊*/
+  padding-right: 20%;
+  padding-left: 12%;
+  padding-bottom: 15%;
+  padding-top: 5%;
+  transition: all .25s ease-out;
+}
+
+}

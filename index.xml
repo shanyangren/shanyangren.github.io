@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello World! on My Hugo Site</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Hello World! on My Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 22 Jul 2025 10:14:23 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Tue, 22 Jul 2025 10:14:23 +0900</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h1&gt;profile&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>//localhost:1313/hello/</link>
+      <pubDate>Tue, 22 Jul 2025 10:14:23 +0900</pubDate>
+      <guid>//localhost:1313/hello/</guid>
+      <description>&lt;h1&gt;omosiro&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>profile</title>
+      <link>//localhost:1313/profile/</link>
+      <pubDate>Tue, 22 Jul 2025 10:14:23 +0900</pubDate>
+      <guid>//localhost:1313/profile/</guid>
+      <description>&lt;h1&gt;profile&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/2024/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;ja&#34;&gt;&#xA;&#xA;&lt;head&gt;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;style2.css&#34;&gt;&#xA;  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34;&gt;&#xA;  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin&gt;&#xA;  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=DotGothic16&amp;family=Rampart+One&amp;family=Yusei+Magic&amp;display=swap&#34;&#xA;    rel=&#34;stylesheet&#34;&gt;&#xA;  &lt;title&gt;2024&lt;/title&gt;&#xA;&lt;/head&gt;&#xA;&#xA;      &lt;div class=&#34;flex1&#34;&gt;&#xA;        &lt;a class=&#34;busyu two&#34; href=&#34;2024-1.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;&#xA;        &lt;a class=&#34;busyu one&#34; href=&#34;2024-2.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a class=&#34;busyu two &#34; href=&#34;2024-3.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;      &lt;/div&gt;&#xA;        &lt;div class=&#34;flex1&#34;&gt;&#xA;        &lt;a class=&#34;busyu three&#34; href=&#34;2024-4.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;&#xA;        &lt;a class=&#34;busyu two&#34; href=&#34;2024-5.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a class=&#34;busyu three&#34; href=&#34;2024-6.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;div class=&#34;flex1&#34;&gt;&#xA;        &lt;a class=&#34;busyu one&#34; href=&#34;2024-4.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;&#xA;        &lt;a class=&#34;busyu three&#34; href=&#34;2024-5.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;        &lt;a class=&#34;busyu one&#34; href=&#34;2024-6.html&#34;&gt;&#xA;          2024 04 30 雨の日 &lt;br&gt;&#xA;          朝、７時起きる。ユリっちゃはいつも欠伸しなから、ベッドに降りる。　&lt;br&gt;&#xA;          11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;          11111 11111 11111 11111 11111 &lt;br&gt;&#xA;        &lt;/a&gt;&#xA;      &lt;/div&gt;&#xA;&#xA;   &#xA;      &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/2025/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;ja&#34;&gt;&#xA;&#xA;&lt;head&gt;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;  &lt;meta name=&#34;description&#34; content=&#34;高間百合の観察日記（偽&#34;&gt;&#xA;  &lt;meta name=&#34;keywords&#34; content=&#34;日記, ストーカー, 百合&#34;&gt;&#xA;  &lt;meta name=&#34;author&#34; content=&#34;あsd&#34;&gt;&#xA;  &lt;link rel=&#34;icon&#34; href=&#34;img/max.jpg&#34;&gt;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;style3.css&#34;&gt;&#xA;  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34;&gt;&#xA;  &lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin&gt;&#xA;  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=Yuji+Mai&amp;display=swap&#34; rel=&#34;stylesheet&#34;&gt;&#xA;  &lt;link href=&#34;https://fonts.googleapis.com/css2?family=DotGothic16&amp;family=Rampart+One&amp;family=Yusei+Magic&amp;display=swap&#34;&#xA;    rel=&#34;stylesheet&#34;&gt;&#xA;  &lt;title&gt;2025&lt;/title&gt;&#xA;&lt;/head&gt;&#xA;&#xA;&lt;body&gt;&#xA;&#xA;       &#xA;&lt;/body&gt;</description>
+    </item>
+  </channel>
+</rss>

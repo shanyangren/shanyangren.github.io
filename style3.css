@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: OrangeGummy;
+  src: url(fonts/Orange\ Gummy.otf);
+}
+
+body {
+    background-color:  rgb(255, 188, 193);
+    color: white;            /* 文字色:白 */
+    text-align: center;
+     margin: 0;
+  }
+
+.wrap{
+  max-width: 900px 40px;
+
+}
+
+.title {
+   background: linear-gradient(rgb(99, 47, 47), rgb(255, 188, 193));
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.zp {
+  text-decoration:none;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff8989;
+  text-shadow: #ffffff 1px 0 0, #000000 0 1px 0, #ffffff -1px 0 0, #ffffff 0 -1px 0;
+}
+/* .yori{
+     aspect-ratio: 1 / 1;
+   width: 40%;
+   object-fit: contain;
+} */
+
+.zp:hover{
+  font-family: "sicoboro", sans-serif;
+  text-decoration:none; 
+  font-size:108%;
+  color: #c81a1a;
+  background-color: #000000;
+  /* box-shadow: 0px 10px 16px 20px #000000; */
+  /*边缘模糊*/
+  padding-right: 16%;
+  padding-left: 16%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  transition: all .25s ease-out;
+}
+
+.jk{
+  font-family: sictake-hanga, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffffc8;
+  text-decoration:none;
+  text-shadow: #ffcfcf 1px 0 0, #442a2a 0 1px 0, #633f3f -1px 0 0, #c57575 0 -1px 0;}
+
+.jk:hover{
+  font-size:30px;
+  color: #ff7a7a;
+  transition: all .25s ease-out;
+  text-decoration:underline white;
+}
+
+.jk1{
+  font-family: sictake-hanga, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff5d5dc8;
+  text-decoration:none;
+  text-shadow: #ffcfcf 1px 0 0, #ffffff 0 1px 0, #ffffff -1px 0 0, #c57575 0 -1px 0;}
+
+.jk1:hover{
+  font-size:25px;
+  color: #ff7272;
+  transition: all .25s ease-out;
+  text-decoration:underline white;
+}
+
+.yowa{
+  color: rgb(170, 66, 66);
+  font-size: 0.21em;
+  margin-bottom: -20px;
+  margin-top: -3px;
+  margin-left: 400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.8;
+  /* text-align: right; */
+}

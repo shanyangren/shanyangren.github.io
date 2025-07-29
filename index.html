@@ -3,7 +3,7 @@
 <head>
 	<meta name="generator" content="Hugo 0.148.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
-  <title>My Hugo Site</title>
+  <title>YORI</title>
   <link rel="stylesheet" href="/style.css">
   <meta name="description" content="高間百合の観察日記（偽">
   <meta name="keywords" content="日記, ストーカー, 百合">
@@ -27,18 +27,19 @@
     <div class="header">
     <div class="wrap">
       <div class="title">
-        <a class="zp" href="zp.html">百合、大好き？</a> <br>
+        <a class="zp" href="/zp/">百合、大好き？</a> <br>
         <p class="yowa">偽 · ストーカーの日記</p>
         <div class="nd">
-          <a class="jk1" href="index.html">2023</a>
-          <a class="jk" href="/2024.html">2024</a>
-          <a class="jk" href="/2025.html">2025</a>
-          <a class="jk" href="2024.html">そして...</a>
+          <a class="jk1" href="/index.html">2023</a>
+          <a class="jk" href="/niyo/">2024</a>
+          <a class="jk" href="/nigo/">2025</a>
+          <a class="jk" href="/sosite/">そして...</a>
         </div>
         
         <div class="profile"></div>
       </div>
     </div>
+
 
 
   <div class="main">
@@ -133,7 +134,24 @@
     </div>
   </div>
 
-     
+<script>
+    document.querySelectorAll('.toggle-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const textBox = button.previousElementSibling;
+        const expanded = textBox.classList.toggle('expanded');
+        button.textContent = expanded ? '閉める' : '全文展開';
+      });
+    });
+
+    (function (d) {
+      var config = {
+        kitId: 'nih3qfw',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>     
 
     <footer>
     <p class="copyriaht">&copy;文書は完全に架空のものです。</p>
@@ -141,5 +159,7 @@
   </footer>
 
 
+
 </body>
+
 </html>

@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+body {
+  background-color: rgb(255, 222, 222);
+  color: white;
+  /* 文字色:白 */
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+.zp {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff9d9d;
+  /* text-decoration:none; */
+  text-shadow: 0px 0px 6px 2px #ffa1b7;
+  /*边缘模糊*/
+}
+
+.jk {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #f59fb0;
+  color: rgb(255, 241, 241);
+  position: relative;
+  width: 8em;
+  padding: 0.3em 0.8em;
+  border-radius: 30px;
+}
+
+.jk:hover {
+  transition: all 0.2s;
+  background-color: #ffa1b7;
+  color: #ffffff;
+  width: 18em;
+  padding: 0.5em 1em;
+  border-radius: 50%;
+
+}
+
+.jk1:active {
+  top: 2px;
+  color: #f49292;
+  background-color: #ffffff;
+}
+
+.jk1 {
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #ffa1b7;;
+  position: relative;
+  width: 18em;
+  padding: 0.5em 1em;
+   border-radius: 50%;
+}
+
+.jk1:hover {
+  transition: all 0.2s;
+  background-color: rgb(255, 222, 222);
+  color: #ff8a8a;
+  width: 8em;
+  padding: 0.3em 0.8em;
+  border-radius: 30px;
+ 
+
+}
+
+.jk1:active {
+  top: 2px;
+  color: #f49292;
+  background-color: #ffffff;
+}
+
+main {
+
+  /* margin-top: -2.5%; */
+  size: 100em;
+  line-height: 3;
+}
+
+.flex1{
+  display: flex;
+  width: 95%;
+  gap: 3em;
+  flex-direction: row-reverse;
+  justify-content:center;
+    padding: 1em;
+}
+
+.busyu {
+  text-decoration:none;
+  color: #ffffff;
+  background-color: #ffa1b7;
+  padding: 1em 1em;
+  /* width: 100px; */
+  width: 30%;
+  height: 30%;
+  white-space: nowrap;/*控制方块隐藏*/
+  overflow: hidden;/*控制文字隐藏*/
+  text-overflow: ellipsis;/*隐藏给予省略号*/
+  transition: all 1s ease ;
+}
+
+.one{
+  background-color: #ca8395;
+}
+
+.two{
+  background-color: #d5b0b9;
+}
+
+.busyu:hover {
+  transition: all 0.2s;
+  width: 50%;
+  height: 100%;
+  /*设置默认宽度，具体宽度多少自己设置 */
+  text-align: center;
+  /*防止宽度过大文字居中*/
+}
+
+.busyu:active {
+  top: 10px;
+  color: #f49292;
+  background-color: #ffffff;
+}
+
+.one{
+  flex: 1 1 auto;
+}
+
+.two{
+  flex: 1 1 auto;
+}
+
+.three{
+  flex: 1 1 auto;
+}
+
+ footer{
+    background-color: #e5afaf;
+    padding-bottom: 120px;
+
+  }
+
+@media (max-width:400px){
+  .main h1{
+    font-size: 4px;
+  }
+
+  .flex1{
+  display: grid;
+  width: 100%;
+  gap: 1em;
+  flex-direction: row-reverse;
+  justify-content:center;
+  padding: 3em;
+}
+
+}
